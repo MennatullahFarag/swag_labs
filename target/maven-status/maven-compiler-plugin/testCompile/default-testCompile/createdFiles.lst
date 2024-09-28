@@ -1,0 +1,16 @@
+test_homepage\HomePageCompTest.class
+test_loginPage\LoginPageCompTest.class
+Utility\FindingElements.class
+Utility\ConfigerLoader.class
+Utility\E2ELogger.class
+Utility\ExcelUtils.class
+Utility\ScreenRecord.class
+comp_login\LoginPageWebElement.class
+Utility\SettingUpWebDriver.class
+Utility\WaitingMethods.class
+comp_login\LoginPageComp.class
+comp_homepage\HomePageComp.class
+comp_homepage\HomePageWebElement.class
+Utility\TestingMethod.class
+Utility\DataUtils.class
+Utility\Screenshots.class

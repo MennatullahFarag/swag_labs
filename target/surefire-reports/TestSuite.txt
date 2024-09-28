@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 137.76 sec <<< FAILURE!
+CheckLoginDataWithExcelFile(test_loginPage.LoginPageCompTest)  Time elapsed: 19.964 sec  <<< FAILURE!
+java.lang.AssertionError: https://www.saucedemo.com/inventory.html is not contained in https://www.saucedemo.com/
+	at Utility.TestingMethod.CheckIfContains(TestingMethod.java:42)
+	at comp_login.LoginPageComp.EnterLoginDataWithExcelFile(LoginPageComp.java:89)
+	at test_loginPage.LoginPageCompTest.CheckLoginDataWithExcelFile(LoginPageCompTest.java:45)
+
+TestUserLoginWithJavaFaker(test_loginPage.LoginPageCompTest)  Time elapsed: 3.929 sec  <<< FAILURE!
+java.lang.AssertionError: Expected: 'https://www.saucedemo.com/' to be found, but actually: 'https://www.saucedemo.com/' is found.
+	at Utility.TestingMethod.CheckIfActualEqualsExpected(TestingMethod.java:32)
+	at comp_login.LoginPageComp.CheckUserLoginWithJavaFaker(LoginPageComp.java:154)
+	at test_loginPage.LoginPageCompTest.TestUserLoginWithJavaFaker(LoginPageCompTest.java:59)
+
